@@ -195,8 +195,6 @@ public class Main {
     }
 
     public static void read() throws FileNotFoundException {
-        ;
-
         File file = new File("bookings.csv");
         Scanner scanner = new Scanner(file);
         scanner.nextLine();
